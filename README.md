@@ -1,3 +1,13 @@
+# Note
+This code is not related in any way to the company Tibber.
+It just implements the authorization and reading devices part of the public API defined in https://data-api.tibber.com/docs
+
+This allows to read the charging data for connect electric vehicles. It is tested for Cupra, but should work as well for all other cars which can be connected to Tibber.
+
+It bypasses the latest restrictions e.g. from VW by using the official, registered and legal API.
+
+See https://tibber.com/de/magazine/power-hacks/volkswagen-api-zugriff
+
 # Setup
 Go to https://data-api.tibber.com/clients/manage/ and create an OAuth2 client.
 Set the redirect URI to http://localhost:17235/callback.

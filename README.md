@@ -19,7 +19,9 @@ python tibber_devices.py
 
 opens your browser for Tibber login, catches the OAuth callback automatically on port 17235, exchanges the code for tokens, and saves them to ~/.tibber_tokens.json (mode 600).
 
-## Subsequent runs: uses the stored refresh token silently — no browser needed.
+## Subsequent runs:
+uses the stored refresh token silently — no browser needed.
+
 Lists all homes → all devices → full device detail JSON for each.
 
 Useful flags

@@ -3,8 +3,8 @@
 Tibber Data Access API - device lister with OAuth2 Authorization Code Flow.
 
 Usage:
-    python tibber_devices.py --client-id YOUR_ID --client-secret YOUR_SECRET
-    python tibber_devices.py  # if CLIENT_ID / CLIENT_SECRET env vars are set
+    python tibber.py --client-id YOUR_ID --client-secret YOUR_SECRET
+    python tibber.py  # if CLIENT_ID / CLIENT_SECRET env vars are set
 
 On first run it opens a browser for login and stores tokens in ~/.tibber_tokens.json.
 Subsequent runs reuse the stored refresh token automatically.
